@@ -8,10 +8,11 @@ const knex = require('knex')({
 
 app.use(bodyParser.urlencoded({extened: true}))
 
-app.post('/api/student/create', (req,res) => {
+app.post('/api/students', (req,res) => {
     const student = {
         FirstName: req.body.firstname,
-        LastName: req.body.lastname
+        LastName: req.body.lastname,
+        Cohort: req.body.cohort
     }
     knex('Students').insert(student)
     .then(results => console.log(results))
