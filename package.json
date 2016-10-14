@@ -1,0 +1,24 @@
+{
+  "name": "basic-sql-app",
+  "version": "1.0.0",
+  "description": "Basic (backend-only) SQL application using PostgreSQL.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhortonmusic/basic-sql-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexhortonmusic/basic-sql-app/issues"
+  },
+  "homepage": "https://github.com/alexhortonmusic/basic-sql-app#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "knex": "^0.12.5",
+    "sqlite3": "^3.1.6"
+  }
+}
